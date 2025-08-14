@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "studentId": 1,
+    "jobId": 1,
+    "studentName": "John Doe",
+    "jobTitle": "Frontend Developer",
+    "company": "TechCorp Solutions",
+    "applicationDate": "2024-08-05T10:30:00Z",
+    "status": "under_review",
+    "coverLetter": "I am excited to apply for the Frontend Developer position at TechCorp Solutions. My experience with React and JavaScript makes me a perfect fit for this role.",
+    "interviewDate": null,
+    "feedback": null,
+    "documents": ["resume.pdf", "portfolio.pdf"]
+  },
+  {
+    "id": 2,
+    "studentId": 1,
+    "jobId": 3,
+    "studentName": "John Doe",
+    "jobTitle": "Data Analyst",
+    "company": "DataDrive Analytics",
+    "applicationDate": "2024-08-08T14:20:00Z",
+    "status": "shortlisted",
+    "coverLetter": "I am interested in the Data Analyst position and believe my analytical skills would be valuable to your team.",
+    "interviewDate": "2024-08-20T15:00:00Z",
+    "feedback": "Good technical background, proceed to interview",
+    "documents": ["resume.pdf"]
+  },
+  {
+    "id": 3,
+    "studentId": 2,
+    "jobId": 2,
+    "studentName": "Jane Smith",
+    "jobTitle": "Backend Developer",
+    "company": "TechCorp Solutions",
+    "applicationDate": "2024-08-06T09:15:00Z",
+    "status": "accepted",
+    "coverLetter": "I am passionate about backend development and would love to contribute to TechCorp's innovative projects.",
+    "interviewDate": "2024-08-15T10:00:00Z",
+    "feedback": "Excellent interview performance, offer extended",
+    "documents": ["resume.pdf", "certificates.pdf"]
+  },
+  {
+    "id": 4,
+    "studentId": 2,
+    "jobId": 4,
+    "studentName": "Jane Smith",
+    "jobTitle": "Software Engineer Intern",
+    "company": "InnovateTech Startups",
+    "applicationDate": "2024-08-11T16:45:00Z",
+    "status": "rejected",
+    "coverLetter": "I am eager to gain experience through this internship opportunity.",
+    "interviewDate": "2024-08-18T14:30:00Z",
+    "feedback": "Good candidate but looking for someone with more availability",
+    "documents": ["resume.pdf"]
+  },
+  {
+    "id": 5,
+    "studentId": 4,
+    "jobId": 5,
+    "studentName": "Sarah Wilson",
+    "jobTitle": "Machine Learning Engineer",
+    "company": "DataDrive Analytics",
+    "applicationDate": "2024-08-13T11:30:00Z",
+    "status": "under_review",
+    "coverLetter": "My background in machine learning and data science aligns perfectly with this role. I have experience with TensorFlow and Python.",
+    "interviewDate": null,
+    "feedback": null,
+    "documents": ["resume.pdf", "ml_projects.pdf", "certifications.pdf"]
+  }
+]

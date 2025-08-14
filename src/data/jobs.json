@@ -1,0 +1,141 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend Developer",
+    "company": "TechCorp Solutions",
+    "companyId": 1,
+    "location": "Silicon Valley, CA",
+    "jobType": "Full-time",
+    "experience": "0-2 years",
+    "salary": "$70,000 - $90,000",
+    "description": "We are looking for a passionate Frontend Developer to join our team. You will be responsible for developing user-facing web applications using modern JavaScript frameworks.",
+    "requirements": [
+      "Bachelor's degree in Computer Science or related field",
+      "Proficiency in HTML, CSS, JavaScript",
+      "Experience with React.js or Angular",
+      "Understanding of responsive design principles",
+      "Good communication skills"
+    ],
+    "skills": ["JavaScript", "React", "HTML", "CSS", "Bootstrap"],
+    "eligibilityCriteria": {
+      "minCGPA": 7.0,
+      "departments": ["Computer Science", "Information Technology"],
+      "year": 4
+    },
+    "applicationDeadline": "2024-09-15T23:59:59Z",
+    "postedDate": "2024-08-01T10:00:00Z",
+    "status": "active",
+    "applicationsReceived": 15
+  },
+  {
+    "id": 2,
+    "title": "Backend Developer",
+    "company": "TechCorp Solutions",
+    "companyId": 1,
+    "location": "Silicon Valley, CA",
+    "jobType": "Full-time",
+    "experience": "1-3 years",
+    "salary": "$80,000 - $100,000",
+    "description": "Join our backend team to build scalable and robust server-side applications. You will work with cutting-edge technologies and contribute to our microservices architecture.",
+    "requirements": [
+      "Bachelor's degree in Computer Science or related field",
+      "Strong programming skills in Java or Python",
+      "Experience with databases (SQL/NoSQL)",
+      "Knowledge of RESTful APIs",
+      "Understanding of cloud platforms (AWS/Azure)"
+    ],
+    "skills": ["Java", "Python", "Spring Boot", "MySQL", "AWS"],
+    "eligibilityCriteria": {
+      "minCGPA": 7.5,
+      "departments": ["Computer Science", "Information Technology"],
+      "year": 4
+    },
+    "applicationDeadline": "2024-09-20T23:59:59Z",
+    "postedDate": "2024-08-05T14:30:00Z",
+    "status": "active",
+    "applicationsReceived": 22
+  },
+  {
+    "id": 3,
+    "title": "Data Analyst",
+    "company": "DataDrive Analytics",
+    "companyId": 2,
+    "location": "Boston, MA",
+    "jobType": "Full-time",
+    "experience": "0-1 years",
+    "salary": "$65,000 - $85,000",
+    "description": "We are seeking a detail-oriented Data Analyst to help us turn data into insights. You will work with large datasets and create visualizations to support business decisions.",
+    "requirements": [
+      "Bachelor's degree in Statistics, Mathematics, or related field",
+      "Proficiency in SQL and Excel",
+      "Experience with data visualization tools",
+      "Strong analytical and problem-solving skills",
+      "Knowledge of Python or R is a plus"
+    ],
+    "skills": ["SQL", "Python", "Excel", "Tableau", "Statistics"],
+    "eligibilityCriteria": {
+      "minCGPA": 7.0,
+      "departments": ["Computer Science", "Mathematics", "Statistics"],
+      "year": 4
+    },
+    "applicationDeadline": "2024-09-10T23:59:59Z",
+    "postedDate": "2024-07-28T09:15:00Z",
+    "status": "active",
+    "applicationsReceived": 18
+  },
+  {
+    "id": 4,
+    "title": "Software Engineer Intern",
+    "company": "InnovateTech Startups",
+    "companyId": 3,
+    "location": "Austin, TX",
+    "jobType": "Internship",
+    "experience": "0 years",
+    "salary": "$25/hour",
+    "description": "Great opportunity for students to gain hands-on experience in software development. You will work on real projects and learn from experienced developers.",
+    "requirements": [
+      "Currently pursuing Bachelor's degree in Computer Science",
+      "Basic programming knowledge",
+      "Eagerness to learn and adapt",
+      "Good teamwork skills"
+    ],
+    "skills": ["Programming", "Problem Solving", "Teamwork"],
+    "eligibilityCriteria": {
+      "minCGPA": 6.5,
+      "departments": ["Computer Science", "Information Technology", "Electronics"],
+      "year": 3
+    },
+    "applicationDeadline": "2024-08-30T23:59:59Z",
+    "postedDate": "2024-08-10T16:45:00Z",
+    "status": "active",
+    "applicationsReceived": 8
+  },
+  {
+    "id": 5,
+    "title": "Machine Learning Engineer",
+    "company": "DataDrive Analytics",
+    "companyId": 2,
+    "location": "Boston, MA",
+    "jobType": "Full-time",
+    "experience": "2-4 years",
+    "salary": "$95,000 - $120,000",
+    "description": "Join our AI team to develop and deploy machine learning models. You will work on cutting-edge projects involving natural language processing and computer vision.",
+    "requirements": [
+      "Master's degree in Computer Science, AI, or related field",
+      "Strong background in machine learning algorithms",
+      "Experience with TensorFlow or PyTorch",
+      "Proficiency in Python",
+      "Experience with cloud ML platforms"
+    ],
+    "skills": ["Python", "Machine Learning", "TensorFlow", "PyTorch", "AI"],
+    "eligibilityCriteria": {
+      "minCGPA": 8.0,
+      "departments": ["Computer Science", "Artificial Intelligence"],
+      "year": 4
+    },
+    "applicationDeadline": "2024-09-25T23:59:59Z",
+    "postedDate": "2024-08-12T11:20:00Z",
+    "status": "active",
+    "applicationsReceived": 12
+  }
+]

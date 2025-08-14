@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "type": "job_posting",
+    "title": "New Job Posted: Frontend Developer",
+    "message": "TechCorp Solutions has posted a new Frontend Developer position. Apply now!",
+    "recipient": "all_students",
+    "recipientId": null,
+    "isRead": false,
+    "priority": "medium",
+    "createdAt": "2024-08-01T10:00:00Z",
+    "relatedJobId": 1
+  },
+  {
+    "id": 2,
+    "type": "application_status",
+    "title": "Application Status Update",
+    "message": "Your application for Backend Developer at TechCorp Solutions has been accepted!",
+    "recipient": "student",
+    "recipientId": 2,
+    "isRead": true,
+    "priority": "high",
+    "createdAt": "2024-08-16T14:30:00Z",
+    "relatedApplicationId": 3
+  },
+  {
+    "id": 3,
+    "type": "interview_schedule",
+    "title": "Interview Scheduled",
+    "message": "Your interview for Data Analyst position is scheduled for August 20, 2024 at 3:00 PM.",
+    "recipient": "student",
+    "recipientId": 1,
+    "isRead": false,
+    "priority": "high",
+    "createdAt": "2024-08-10T09:15:00Z",
+    "relatedApplicationId": 2
+  },
+  {
+    "id": 4,
+    "type": "deadline_reminder",
+    "title": "Application Deadline Reminder",
+    "message": "Reminder: Application deadline for Data Analyst position is in 3 days.",
+    "recipient": "all_students",
+    "recipientId": null,
+    "isRead": false,
+    "priority": "medium",
+    "createdAt": "2024-08-07T08:00:00Z",
+    "relatedJobId": 3
+  },
+  {
+    "id": 5,
+    "type": "profile_update",
+    "title": "Profile Update Required",
+    "message": "Please update your profile with latest academic details to maintain eligibility.",
+    "recipient": "student",
+    "recipientId": 3,
+    "isRead": false,
+    "priority": "low",
+    "createdAt": "2024-08-05T12:00:00Z",
+    "relatedStudentId": 3
+  },
+  {
+    "id": 6,
+    "type": "company_verification",
+    "title": "Company Profile Verified",
+    "message": "Your company profile has been successfully verified. You can now post job openings.",
+    "recipient": "employer",
+    "recipientId": 2,
+    "isRead": true,
+    "priority": "medium",
+    "createdAt": "2024-08-12T11:45:00Z",
+    "relatedEmployerId": 2
+  }
+]
