@@ -1,5 +1,6 @@
 import React, { useState, useContext } from 'react';
 import { Container, Row, Col, Card, Form, Button, Alert, Tab, Tabs } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import { AppContext } from '../../App';
 import { adminAPI } from '../../data/api';
 import { StudentService } from '../../domain/studentService';
@@ -151,11 +152,11 @@ const AdminLogin = () => {
                       {loading ? 'Logging in...' : 'Login as Admin'}
                     </Button>
                     
-                    <Alert variant="info" className="small">
+                    {/* <Alert variant="info" className="small">
                       <strong>Demo Credentials:</strong><br />
                       Username: {demoCredentials.admin.username}<br />
                       Password: {demoCredentials.admin.password}
-                    </Alert>
+                    </Alert> */}
                   </Form>
                 </Tab>
                 
@@ -182,11 +183,11 @@ const AdminLogin = () => {
                       {loading ? 'Logging in...' : 'Login as Student'}
                     </Button>
                     
-                    <Alert variant="info" className="small">
+                    {/* <Alert variant="info" className="small">
                       <strong>Demo Credentials:</strong><br />
                       Email: {demoCredentials.student.email}<br />
                       Student ID: {demoCredentials.student.studentId}
-                    </Alert>
+                    </Alert> */}
                   </Form>
                 </Tab>
                 
@@ -213,18 +214,23 @@ const AdminLogin = () => {
                       {loading ? 'Logging in...' : 'Login as Employer'}
                     </Button>
                     
-                    <Alert variant="info" className="small">
+                    {/* <Alert variant="info" className="small">
                       <strong>Demo Credentials:</strong><br />
                       Email: {demoCredentials.employer.email}
-                    </Alert>
+                    </Alert> */}
                   </Form>
                 </Tab>
               </Tabs>
               
               <div className="text-center mt-4">
-                <small className="text-muted">
-                  This is a demo system. Use the provided credentials above to explore different user roles.
-                </small>
+                <Link to="/" className="btn btn-outline-secondary mb-3">
+                  ← Back to Home
+                </Link>
+                <div>
+                  <small className="text-muted">
+                    This is a demo system. Use the provided credentials above to explore different user roles.
+                  </small>
+                </div>
               </div>
             </Card.Body>
           </Card>

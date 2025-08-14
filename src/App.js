@@ -5,6 +5,8 @@ import './App.css';
 
 // Components
 import Navbar from './presentation/components/Navbar';
+import LandingPage from './presentation/pages/LandingPage';
+import Register from './presentation/pages/Register';
 import Dashboard from './presentation/pages/Dashboard';
 import StudentManagement from './presentation/pages/StudentManagement';
 import EmployerManagement from './presentation/pages/EmployerManagement';
@@ -80,6 +82,14 @@ function App() {
             <Routes>
               {/* Public Routes */}
               <Route 
+                path="/" 
+                element={!user ? <LandingPage /> : <Navigate to="/dashboard" />} 
+              />
+              <Route 
+                path="/register" 
+                element={!user ? <Register /> : <Navigate to="/dashboard" />} 
+              />
+              <Route 
                 path="/login" 
                 element={!user ? <AdminLogin /> : <Navigate to="/dashboard" />} 
               />
@@ -96,10 +106,9 @@ function App() {
                   <Route path="/student/:id" element={<StudentProfile />} />
                   <Route path="/employer/:id" element={<EmployerProfile />} />
                   <Route path="/job/:id" element={<JobDetails />} />
-                  <Route path="/" element={<Navigate to="/dashboard" />} />
                 </>
               ) : (
-                <Route path="*" element={<Navigate to="/login" />} />
+                <Route path="*" element={<Navigate to="/" />} />
               )}
             </Routes>
           </main>
